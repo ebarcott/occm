@@ -32,6 +32,8 @@ It is not supported with ONTAP Cloud Explore or with M3 and R3 instance types wh
 +
 It is not supported with ONTAP Cloud-managed encryption.
 
+* The EBS tier can be General Purpose SSDs or Throughput Optimized HDDs.
+
 * Thin provisioning must be enabled on volumes.
 
 * ONTAP performance enhancements introduced in ONTAP Cloud 9.2 are not supported with data tiering.
