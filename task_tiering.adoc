@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task_tiering.html
 keywords: tier, tiering, cold data, hot data, storage tiering, data tiering, S3 tiering, fabricpool, fabric pool, s3 endpoint, endpoint, connection, performance tier, capacity tier, object store
-summary: You can reduce storage costs in AWS by combining an EBS performance tier for "hot" data with an S3 capacity tier for "cold" data.
+summary: You can reduce storage costs in AWS by combining an EBS performance tier for hot data with an S3 capacity tier for cold data.
 ---
 
 = Tiering data in AWS
@@ -27,8 +27,6 @@ Data tiering is supported with specific configurations and features:
 * Data tiering is supported with ONTAP Cloud Standard, Premium, and BYOL.
 +
 It is not supported with ONTAP Cloud Explore or with M3 and R3 instance types when using Standard and Premium.
-
-* The EBS tier can be General Purpose SSDs or Throughput Optimized HDDs.
 
 * Data tiering is supported with AWS-managed encryption.
 +
